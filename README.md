@@ -6,7 +6,7 @@
 
 This module presents a simple high-level API for using [telehash v3](https://github.com/telehash/telehash.org/tree/master/v3) for both node and browserify.
 
-The browser crypto that powers this is only possible thanks to the incredible work done by the team behind [Forge](https://github.com/digitalbazaar/forge), [Tom Wu](http://www-cs-students.stanford.edu/~tjw/), and the [Sanford Javascript Crypto Library](https://github.com/bitwiseshiftleft/sjcl).
+The browser crypto that powers this is only possible thanks to the incredible work done by the team behind [Forge](https://github.com/digitalbazaar/forge), [Tom Wu](http://www-cs-students.stanford.edu/~tjw/), and the [Stanford Javascript Crypto Library](https://github.com/bitwiseshiftleft/sjcl).
 
 # Router
 
