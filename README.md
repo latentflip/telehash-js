@@ -231,20 +231,19 @@ tpx.mesh(mesh,function(err, tp){
 
 ##Debugging
 
-Telehash-js uses the 'debug' module for debug statements. to enable debugging of a particular code portion, set the DEBUG
-environment variable to a comma seperated list of module names.
+Telehash-js uses the 'debug' module for debug statements. to enable debugging of a particular code portion, set the DEBUG environment variable to a comma seperated list of module names.
 
 ````
 ~$ DEBUG=Link,Mesh node router.js
 ````
 
 Available debug labels:
--Link, class for mesh to mesh communication over best available connection
--Pipe, class wrapper for single connections
--Mesh, class for Telehash mesh nodes
--Peer, peer routing channels
--Path, path iscovery channels
--Stream, streaming channels
--Hanshake, incoming handshake processing
--Receive, incoming packet processing
--
+
+- Link: class for mesh to mesh communication over best available connection
+- Pipe: class wrapper for single connections
+- Mesh: class for Telehash mesh nodes
+- Peer: peer routing channels
+- Path: path discovery channels
+- Stream: streaming channels
+- Hanshake: incoming handshake processing
+- Receive: incoming packet processing
